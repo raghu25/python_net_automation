@@ -34,3 +34,4 @@ ospf_vars = {
 template = jinja2.Template(ospf_template)
 output = template.render(**ospf_vars)
 print(output)
+f.close()
