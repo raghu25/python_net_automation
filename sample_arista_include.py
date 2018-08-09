@@ -74,28 +74,3 @@ device_vars = {
 template_file = 'arista_template.j2'
 template = env.get_template(template_file)
 print(template.render(device_vars))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
